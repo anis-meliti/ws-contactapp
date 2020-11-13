@@ -1,0 +1,21 @@
+{
+  "name": "ws-mongoose",
+  "version": "1.0.0",
+  "description": "backend server for a contact app",
+  "main": "server.js",
+  "author": "Anis Mell",
+  "license": "MIT",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "config": "^3.3.2",
+    "express": "^4.17.1",
+    "express-validator": "^6.6.1",
+    "mongoose": "^5.10.14"
+  }
+}
